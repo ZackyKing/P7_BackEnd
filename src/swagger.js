@@ -20,5 +20,5 @@ const options = {
 const setupSwagger = (app) => {
   expressJSDocSwagger(app)(options);
 };
-
+ 
 module.exports = setupSwagger;
